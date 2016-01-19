@@ -6,13 +6,13 @@ Version 1.1
 1- How to use it: 
 Simply answer the questions and select a name for the data storage directory. (The time unit is 1 round) 
 
-Suggested conditions: 
-initial amount of ploxys: 200
-initial amount of food: 2000
-number of rounds: 1000
-minimal initial lifespan: 200 or 300
-maximal initial lifespan: 300 or 400
-data directory's name: test
+Suggested conditions: | 
+initial amount of ploxys: 200 | 
+initial amount of food: 2000 | 
+number of rounds: 1000 | 
+minimal initial lifespan: 200 or 300 | 
+maximal initial lifespan: 300 or 400 | 
+data directory's name: test | 
 
 2- How does it works?
 It uses a population of creatures called ploxys and simulates their lives. Each ploxy consists of a python list holding its xy position, lifespan, birthdate, generation and how many children it will give birth. Each time a ploxy eats a piece of food it will reproduce and its children will have similar characteristics, but with random small mutations. After some rounds, the best ploxys will overtake the population.
