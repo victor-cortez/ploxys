@@ -1,12 +1,6 @@
 from random import randint
 import os
 
-#function to save your images in order
-def sanitize(num):
-    cadeia = str(num)
-    zeros = 9 - len(cadeia)
-    adicao = "0" * zeros
-    return adicao + cadeia
 # never let the children number get below zero
 def nozero(inteiro):
     if inteiro > 0:
