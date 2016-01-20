@@ -16,7 +16,7 @@ data directory's name: test |
 
 -----
 
-Another uggested conditions: | 
+Another suggested conditions: | 
 initial amount of ploxys: 2000 | 
 initial amount of food: 5000 | 
 number of rounds: 1000 | 
